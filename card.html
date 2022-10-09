@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylecard.css">
+</head>
+<body>
+    <div class="men">
+        <div class="wow">
+            <div class="mow">
+                <h2>
+                    o1
+                </h2>
+                <h2>card um</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                     Placeat numquam tempora libero nesciunt voluptatibus cum 
+                     provident quibusdam cupiditate odit atque maxime adipisci, 
+                     fuga laborum corporis ullam esse dolores dicta perferendis.</p>
+                <a href="#">Mais</a>
+            </div>
+        </div>
+        <div class="wow">
+         <div class="mow">
+             <h2>
+                 02
+             </h2>
+             <h2>card um</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                 Placeat numquam tempora libero nesciunt voluptatibus cum
+                  provident quibusdam cupiditate odit atque maxime adipisci, 
+                  fuga laborum corporis ullam esse dolores dicta perferendis.</p>
+             <a href="#">Mais</a>
+         </div>
+     </div>
+     <div class="wow">
+         <div class="mow">
+             <h2>
+                 03
+             </h2>
+             <h2>card um</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                 Placeat numquam tempora libero nesciunt voluptatibus cum
+                  provident quibusdam cupiditate odit atque maxime adipisci, 
+                  fuga laborum corporis ullam esse dolores dicta perferendis.</p>
+             <a href="#">Mais</a>
+         </div>
+     </div>
+    </div>
+   <form>
+       <h3>Iniciar sessão</h3>
+       <input type="text" placeholder="Email" id="Email">
+       <input type="password" placeholder="Senha" id="Senha">
+       <input type="submit" onclick="logar(); return false">
+   </form>
+   <script>
+       function logar(){
+
+           var Email = document.getElementById("Email").value; 
+           var Senha = document.getElementById("Senha").value;
+
+           if(Email == "orlapaulo585@gmail.com" &&  Senha == "orla1212"){
+               alert('sucesso');
+               location.href ="entrar.html";
+               //*bem vid
+           } else{
+               alert('usuario ou senha incorretos')
+           }
+        }
+   </script>
+    
+</body>
+</html>
